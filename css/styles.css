@@ -56,3 +56,12 @@ body {
     color: #b6c9d9;
     margin-bottom: 10px;
 }
+.fotter{
+    width: 70%;
+    color: #b6c9d9;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+}
