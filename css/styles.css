@@ -19,6 +19,7 @@ body {
     align-items: center;
 }
 #cabecera{
+    display: flex;
     width: 600px;
     color: #fff;
     background: #140250;
@@ -30,9 +31,19 @@ body {
     border-radius: 5px;
 
 }
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logo img {
+    width: 100%;
+}
 #cabecera span {
     font-weight: 200;
     font-size: 20px;
+    padding: 7px;
+    margin-top: 5px;
 }
 .container h1 {
     text-align: left;
@@ -46,8 +57,10 @@ body {
     width: 700px;
     padding: 10px;
     margin-top: 10px;
-    align-items: center; 
     flex-direction: column;
+    background: #140250;
+    border-radius: 3px;
+    box-shadow: -3px -3px 2px #2d1093;
 }
 .content p{
     text-align: left;
@@ -55,4 +68,12 @@ body {
     font-weight: 300;
     color: #b6c9d9;
     margin-bottom: 10px;
+}
+.content p:nth-child(3){
+    font-weight: bold;
+    text-align: left;
+    margin-top: 25px;
+}
+.content p:nth-child(3):hover{
+    color: #bf861c;
 }
