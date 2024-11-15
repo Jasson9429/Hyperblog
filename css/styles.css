@@ -69,6 +69,7 @@ body {
     color: #b6c9d9;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 .content p:nth-child(3){
     font-weight: bold;
     text-align: left;
@@ -76,4 +77,14 @@ body {
 }
 .content p:nth-child(3):hover{
     color: #bf861c;
+=======
+.fotter{
+    width: 70%;
+    color: #b6c9d9;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+>>>>>>> fotter
 }
